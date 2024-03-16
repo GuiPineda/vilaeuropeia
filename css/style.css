@@ -45,6 +45,10 @@ h6,
     display: block; /* Garante que a imagem não tenha espaço em branco abaixo dela */
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 
 /*** Spinner ***/
 #spinner {

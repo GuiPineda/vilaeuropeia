@@ -3661,6 +3661,8 @@ fieldset:disabled .btn {
     margin-right: 1rem;
     font-size: 1.25rem;
     white-space: nowrap;
+
+    width: 220px; 
 }
 .navbar-nav {
     display: flex;
@@ -3799,6 +3801,16 @@ fieldset:disabled .btn {
     }
 }
 @media (min-width: 1200px) {
+    .navbar-brand {
+        padding-top: 0.3125rem;
+        padding-bottom: 0.3125rem;
+        margin-right: 1rem;
+        font-size: 1.25rem;
+        white-space: nowrap;
+    
+        width: 500px; 
+    }
+
     .navbar-expand-xl {
         flex-wrap: nowrap;
         justify-content: flex-start;
@@ -5034,6 +5046,9 @@ fieldset:disabled .btn {
     }
 }
 @media (max-width: 767.98px) {
+
+
+
     .modal-fullscreen-md-down {
         width: 100vw;
         max-width: none;
@@ -6353,7 +6368,7 @@ fieldset:disabled .btn {
     margin-right: 1rem !important;
 }
 .me-4 {
-    margin-right: 1.5rem !important;
+    margin-right: 40px !important;
 }
 .me-5 {
     margin-right: 3rem !important;
